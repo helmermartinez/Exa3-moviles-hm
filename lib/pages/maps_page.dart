@@ -9,8 +9,8 @@ class MapsGoogle extends StatefulWidget {
 }
 
 class _MapsGoogleState extends State<MapsGoogle> {
-  static const _initialCameraPosition =
-      CameraPosition(target: LatLng(37.773972, -122.431297), zoom: 11.5);
+  static const _initialCameraPosition = CameraPosition(
+      target: LatLng(-11.9338473344386, -76.71584942698759), zoom: 11.5);
   late GoogleMapController _googleMapController;
 
   @override

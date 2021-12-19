@@ -25,7 +25,7 @@ class _HomePageState extends State<HomePage> {
                 },
                 label: Text('Scanner QR'),
                 style: ElevatedButton.styleFrom(
-                    primary: Colors.purple,
+                    primary: Colors.yellow,
                     padding: EdgeInsets.symmetric(horizontal: 50, vertical: 15),
                     textStyle: TextStyle(fontSize: 20, color: Colors.white)),
               ),
@@ -39,7 +39,7 @@ class _HomePageState extends State<HomePage> {
                 },
                 label: Text('CRUD'),
                 style: ElevatedButton.styleFrom(
-                    primary: Colors.blue,
+                    primary: Colors.green,
                     padding: EdgeInsets.symmetric(horizontal: 50, vertical: 15),
                     textStyle: TextStyle(fontSize: 20, color: Colors.white)),
               ),
@@ -53,7 +53,7 @@ class _HomePageState extends State<HomePage> {
                 },
                 label: Text('Google Maps'),
                 style: ElevatedButton.styleFrom(
-                    primary: Colors.red,
+                    primary: Colors.purple,
                     padding: EdgeInsets.symmetric(horizontal: 50, vertical: 15),
                     textStyle: TextStyle(fontSize: 20, color: Colors.white)),
               ),

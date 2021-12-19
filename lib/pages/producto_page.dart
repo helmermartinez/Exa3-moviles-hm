@@ -33,7 +33,7 @@ class _ProductoPageState extends State<ProductoPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Productos'),
+        title: Text('Docentes'),
       ),
       body: ListView.builder(
           itemCount: docs.length,

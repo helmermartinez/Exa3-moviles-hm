@@ -31,7 +31,7 @@ class _ViewProductState extends State<ViewProduct> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Producto View"),
+        title: Text("Docente View"),
         actions: [
           IconButton(
               onPressed: () {
@@ -49,7 +49,7 @@ class _ViewProductState extends State<ViewProduct> {
             children: [
               TextFormField(
                 style: TextStyle(color: Colors.black),
-                decoration: InputDecoration(counterText: "Nombre Producto"),
+                decoration: InputDecoration(counterText: "Nombre Docente"),
                 controller: productoController,
               ),
               SizedBox(
@@ -57,7 +57,7 @@ class _ViewProductState extends State<ViewProduct> {
               ),
               TextFormField(
                 style: TextStyle(color: Colors.black),
-                decoration: InputDecoration(counterText: "Precio Producto"),
+                decoration: InputDecoration(counterText: "Codigo Docente"),
                 controller: precioController,
               ),
               SizedBox(
@@ -65,7 +65,7 @@ class _ViewProductState extends State<ViewProduct> {
               ),
               TextFormField(
                 style: TextStyle(color: Colors.black),
-                decoration: InputDecoration(counterText: "Cantidad Producto"),
+                decoration: InputDecoration(counterText: "Materia Docente"),
                 controller: codigoController,
               ),
               SizedBox(

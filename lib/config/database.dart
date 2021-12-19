@@ -24,6 +24,7 @@ class Database {
           docs.add(a);
         }
       }
+      print('Aqui los docs: ${docs}');
       return docs;
     } catch (e) {
       print(e);

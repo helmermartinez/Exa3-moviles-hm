@@ -25,7 +25,7 @@ class _AddProductState extends State<AddProduct> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Add new Product"),
+        title: Text("Add new Docente"),
       ),
       body: SingleChildScrollView(
         child: Container(
@@ -34,7 +34,7 @@ class _AddProductState extends State<AddProduct> {
             children: [
               TextFormField(
                 style: TextStyle(color: Colors.black),
-                decoration: InputDecoration(counterText: "Nombre Producto"),
+                decoration: InputDecoration(counterText: "Nombre Docente"),
                 controller: productoController,
               ),
               SizedBox(
@@ -42,7 +42,7 @@ class _AddProductState extends State<AddProduct> {
               ),
               TextFormField(
                 style: TextStyle(color: Colors.black),
-                decoration: InputDecoration(counterText: "Precio Producto"),
+                decoration: InputDecoration(counterText: "Codigo Docente"),
                 controller: precioController,
               ),
               SizedBox(
@@ -50,7 +50,7 @@ class _AddProductState extends State<AddProduct> {
               ),
               TextFormField(
                 style: TextStyle(color: Colors.black),
-                decoration: InputDecoration(counterText: "Cantidad Producto"),
+                decoration: InputDecoration(counterText: "Materia Docente"),
                 controller: codigoController,
               ),
               SizedBox(
